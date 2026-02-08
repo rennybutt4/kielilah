@@ -4,7 +4,7 @@ const port = parseInt(process.env.PORT, 10) || 3000;
 
 const server = http.createServer((req, res) => {
   res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
-  res.end(`<h1>BlobeVM running on port ${port}</h1><p>PID: ${process.pid}</p>`);
+  res.end(`<h1>BlobeVM running on port ${port}</h1>`);
 });
 
 server.listen(port, () => {
