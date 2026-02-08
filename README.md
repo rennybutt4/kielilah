@@ -1,5 +1,6 @@
 BlobeVM
 
 **Running process**
-- Local server: http://localhost:300
+- Local server: http://localhost:3001
+
 
